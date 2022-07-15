@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-all-form {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90%;
+    width: 25%;
+    background-color: rgb(88 107 169);
+    color: white;
+    border-radius: 10px;
+}
+
+.title {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    font-weight: 500;
+}
+
+.form-proper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.form-proper>label {
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.form-proper>input {
+    width: 100%;
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    height: 40px;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.container-pictures {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.option {
+    height: 100%;
+    border-radius: 5px;
+}
+
+.submit-button {
+    margin-top: 15px;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(88 107 169);
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.error-msg {
+    position: fixed;
+    top: 1%;
+    color: rgb(255, 0, 0);
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.305);
+}
+
+.finished-headline, .finished-subtext {
+    color: #e6d2ac;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.finished-secondary {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.finished-subtext {
+    margin-bottom: 30px;
+}
+
+.finished-button {
+    background-color: #fe4400;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.finished-button:hover {
+    background-color: #cb3600;
+}
+
+.container-countdown {
+    color: white;
+    display: flex;
+    width: 90%;
+    height: 30%;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.col-days, .col-hours, .col-minutes, .col-seconds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+.days-val, .hours-val, .minutes-val, .seconds-val {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid white;
+    border-radius: 10px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.days-text, .hours-text, .minutes-text, .seconds-text {
+    color: #e6d2ac;
+}
+
+.expired-notice {
+    color: white;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
